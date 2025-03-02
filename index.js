@@ -94,7 +94,6 @@ function testframework(scripts, expectedResults) {
   //appropriate coloring (green /red)
   //presenting list items on the browser
 }
-testframework(scripts, expectedResults);
 
 function makeObj(scripts, expectedResults) {
   let testObjArray = scripts.reduce((acc, script, i) => {
@@ -130,3 +129,5 @@ function makeItems(el) {
   }
   return res;
 }
+
+testframework(scripts, expectedResults);
