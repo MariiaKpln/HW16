@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+}
+
+.item {
+  font-size: 2rem;
+  color: red;
+}
+
+.green {
+  color: green;
+}
